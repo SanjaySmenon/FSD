@@ -1,4 +1,4 @@
-/* ========== GLOBAL STYLES ========== */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: #222;
 }
 
-/* ========== HEADER ========== */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -55,7 +55,6 @@ body {
   cursor: pointer;
 }
 
-/* ========== HERO SECTION ========== */
 .hero {
   min-height: 80vh;
   background: linear-gradient(to right, #4facfe, #00f2fe);
@@ -108,7 +107,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* ========== FEATURES ========== */
+
 .features {
   padding: 4rem 2rem;
   text-align: center;
@@ -135,7 +134,7 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* ========== PRICING ========== */
+
 .pricing {
   background: #f0f4f8;
   padding: 4rem 2rem;
@@ -195,7 +194,6 @@ body {
   border-radius: 5px;
 }
 
-/* ========== FOOTER ========== */
 .footer {
   background: #222;
   color: #fff;
@@ -213,7 +211,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* ========== RESPONSIVE ========== */
+
 @media (max-width: 768px) {
   .nav {
     position: absolute;
@@ -238,3 +236,4 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
